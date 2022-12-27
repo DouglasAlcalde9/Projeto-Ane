@@ -1,0 +1,72 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Passero+One&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
+:root{
+    --fonte1: verdana, geneva, tahoma, sans-serif;
+    --fonte2:  'Passero One', cursive;
+    --fonte3:  'Sriracha', cursive;
+}
+
+* {
+    margin:0px ;
+    padding: 0px;
+    font-size: 1em;
+}
+
+html, body{
+    min-height: 100vh;
+    background-color: rgba(169, 169, 169, 0.308);
+    font-family: var(--fonte1);
+}
+
+header{
+    background-image: linear-gradient(to left, #F70C35,#E00700,#FA2001,#ED390C,#F70C35 );
+    color: white;
+    text-align: center;
+}
+header > h1{
+    padding-top: 30px;
+    font-variant: small-caps;
+    font-family: var(--fonte2);
+    font-size: 3.5em;
+}
+header> p{
+    padding-bottom: 30px;
+}
+section{
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    line-height: 2em;
+    padding-left: 30px;
+    font-family: var(--fonte3);
+    font-size: 3.5vw;
+}
+section.normal{
+    background-color: white;
+    color: rgb(0, 0, 0);
+}
+section.imagem{
+    background-color: rgba(0, 0, 0, 0.795);
+    color: white;
+}
+section.imagem > p{
+    display: inline-block;
+    padding: 5px;
+    background-color: rgb(51, 51, 51);
+}
+footer{
+    
+    
+    background-image: linear-gradient(to left, #F70C35,#E00700,#FA2001,#ED390C,#F70C35 );
+    text-align: center;
+    padding: 10px;
+    font-weight: bolder;
+    color: white;
+    }
+
+a{
+    color: white;
+}
+
